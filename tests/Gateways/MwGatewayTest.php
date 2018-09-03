@@ -11,11 +11,11 @@
 
 namespace zacksleo\easysms\tests\Gateways;
 
-use Overtrue\EasySms\Gateways\MwGateway;
+use zacksleo\easysms\Gateways\MwGateway;
 use Overtrue\EasySms\Message;
 use Overtrue\EasySms\PhoneNumber;
 use Overtrue\EasySms\Support\Config;
-use Overtrue\EasySms\Tests\TestCase;
+use zacksleo\easysms\tests\TestCase;
 
 class MwGatewayTest extends TestCase
 {
