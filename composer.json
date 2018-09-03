@@ -1,10 +1,9 @@
 {
-    "name": "overtrue/easy-sms",
+    "name": "zacksleo/easy-sms-mw",
     "description": "The easiest way to send short message.",
     "type": "library",
     "require": {
-        "guzzlehttp/guzzle": "^6.2",
-        "php": ">=5.6"
+        "overtrue/easy-sms": "^1.1",
     },
     "require-dev": {
         "phpunit/phpunit": "^5.6",
@@ -12,19 +11,23 @@
     },
     "autoload": {
         "psr-4": {
-            "Overtrue\\EasySms\\": "src"
+            "zacksleo\\easysms\\": "src"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "Overtrue\\EasySms\\Tests\\": "tests"
+            "zacksleo\\easysms\\tests\\": "tests"
         }
     },
     "license": "MIT",
     "authors": [
         {
-            "name": "overtrue",
-            "email": "i@overtrue.me"
+            "name": "monster-hunter",
+            "email": "zhangjunwei@lianluo.com"
+        },
+        {
+            "name": "zacksleo",
+            "email": "zacksleo@gmail.com"
         }
     ]
 }

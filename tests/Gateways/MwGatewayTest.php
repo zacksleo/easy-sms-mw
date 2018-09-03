@@ -9,7 +9,7 @@
  * with this source code in the file LICENSE.
  */
 
-namespace Overtrue\EasySms\Tests\Gateways;
+namespace zacksleo\easysms\tests\Gateways;
 
 use Overtrue\EasySms\Gateways\MwGateway;
 use Overtrue\EasySms\Message;
