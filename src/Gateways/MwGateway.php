@@ -15,6 +15,7 @@ use Overtrue\EasySms\Contracts\MessageInterface;
 use Overtrue\EasySms\Contracts\PhoneNumberInterface;
 use Overtrue\EasySms\Support\Config;
 use Overtrue\EasySms\Traits\HasHttpRequest;
+use Overtrue\EasySms\Gateways\Gateway;
 
 /**
  * Class MwGateway.
