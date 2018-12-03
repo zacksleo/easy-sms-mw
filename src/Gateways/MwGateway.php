@@ -26,7 +26,7 @@ class MwGateway extends Gateway
 {
     use HasHttpRequest;
 
-    const ENDPOINT_TEMPLATE = 'http://61.145.229.28:8806/MWGate/wmgw.asmx/MongateSendSubmit';
+    const ENDPOINT_TEMPLATE = 'http://TSN19.800CT.COM:8901/MWGate/wmgw.asmx/MongateSendSubmit';
 
     /**
      * @param \Overtrue\EasySms\Contracts\PhoneNumberInterface $to
